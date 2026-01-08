@@ -23,7 +23,6 @@ A simplified Twitter clone styled like the 140-character era.
 - Tailwind CSS + Flowbite
 - Zod validation
 - Mobile responsive
-- Programmatic Routes
 
 ### Backend
 - REST APIs
@@ -78,5 +77,6 @@ A simplified Twitter clone styled like the 140-character era.
 const routes: RouteConfig[] = [
   { path: '/', component: Landing },
   { path: '/signup', component: Signup },
+    ...
 ];
 ```
