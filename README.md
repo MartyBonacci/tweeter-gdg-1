@@ -16,12 +16,13 @@ A simplified Twitter clone styled like the 140-character era.
 ## Tech Stack
 
 ### Frontend
-- React Router v7 (framework mode)
+- React Router v7 (framework mode using loaders and actions)
 - Programmatic routes (app/routes.ts with RouteConfig - NOT file-based)
 - TypeScript
 - Functional programming patterns (not OOP)
 - Tailwind CSS + Flowbite
 - Zod validation
+- Remix hook forms
 - Mobile responsive
 
 ### Backend
